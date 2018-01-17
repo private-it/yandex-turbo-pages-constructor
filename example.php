@@ -1,16 +1,4 @@
-# yandex-turbo-pages-constructor
-RSS Feed constructor for Yandex turbo pages
-
-# Installation
-
-```bash
-composer require private-it/yandex-turbo-pages-constructor:dev-master
-```
-
-
-# Usage
-
-```php
+<?php
 
 include realpath(__DIR__ . '/vendor/autoload.php');
 
@@ -111,6 +99,4 @@ $rss = Root::make()
             )
     );
 
-print $rss->toXML();
-
-```
+print_r($rss->toXML());

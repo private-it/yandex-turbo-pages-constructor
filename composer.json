@@ -1,0 +1,34 @@
+{
+  "name": "private-it/yandex-turbo-pages-constructor",
+  "description": "RSS Feed constructor for Yandex turbo pages",
+  "keywords": [
+    "yandex",
+    "turbo",
+    "pages",
+    "rss",
+    "feed"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Igor Sapegin",
+      "email": "sapegin.in@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PrivateIT\\Yandex\\rss\\": "src"
+    }
+  },
+  "extra": {
+    "merge-plugin": {
+      "include": [
+        "composer.local.json"
+      ]
+    }
+  }
+}
